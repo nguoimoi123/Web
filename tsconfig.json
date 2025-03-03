@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "public/image/image.jsx", "src/app/adminp/js/page/dashboard/page.jsx", "src/app/adminp/js/page/dashboard/RecentOrders.jsx", "src/app/adminp/js/page/dashboard/orders.jsx", "src/app/api/inventory/product/route.js", "src/app/adminp/js/page/inventory/product/page.js", "src/app/adminp/js/include/tab.jsx", "src/app/adminp/js/include/mode.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
